@@ -15,7 +15,6 @@ export class AlbumPage {
       this.data = this.data[title]; } 
     }
 
-  // Helper function for image names
   dasherize(string: any) {
     return string.replace(/[A-Z]/g, function (char: any, index: any) {
       return (index !== 0 ? '-' : '') + char.toLowerCase();
